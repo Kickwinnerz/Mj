@@ -85,6 +85,7 @@ class Devi:
     def main(self):
  
        os.system("clear")
+       os.system('xdg-open https://www.facebook.com/profile.php?id=61553924229187')
        linex()
        print(Panel("[cyan bold]1_ Old Idx Cloning 2009-2014  \n[red bold] 2_ ExīīT /Clear",style='''bold magenta2'''))
        self.frsc=input("\033[0;32m~>> chose : ")
@@ -92,6 +93,7 @@ class Devi:
        else:pass
     def settings(self):
        os.system("clear")
+       os.system('xdg-open https://www.facebook.com/profile.php?id=61553924229187')
        linex()
        print(Panel("[bold green]~>> Example : 10000   50000   1000000 ",style='''bold magenta2'''))
        self.limit=int(input("\033[0;33m~>> Enter Search Limit : "));self.user=[]
